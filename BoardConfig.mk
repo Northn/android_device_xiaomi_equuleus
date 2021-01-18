@@ -18,7 +18,11 @@ TARGET_OTA_ASSERT_DEVICE := equuleus
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
+TARGET_KERNEL_SOURCE := kernel/xiaomi/equuleus
 TARGET_KERNEL_CONFIG := equuleus_defconfig
+TARGET_KERNEL_CLANG_VERSION := proton
+KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-proton/bin
+KERNEL_SUPPORTS_LLVM_TOOLS := true
 
 # Partitions
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
