@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_equuleus.mk
+    $(LOCAL_DIR)/evolution_equuleus.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_equuleus-user \
-    aosp_equuleus-userdebug \
-    aosp_equuleus-eng
+    evolution_equuleus-user \
+    evolution_equuleus-userdebug \
+    evolution_equuleus-eng
